@@ -1,0 +1,10 @@
+name: knime5_node_dev
+channels:
+  - knime
+  - conda-forge
+dependencies:
+  - python=3.10
+  - knime-extension=5.1
+  - knime-python-base=5.1
+  - rdkit=2022.09.3
+  - packaging
