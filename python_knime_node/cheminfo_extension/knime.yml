@@ -1,6 +1,6 @@
 name: my_rdk_nodes # Will be concatenated with the group_id to an ID
 author: Taka
-env_yml_path:  /home/iwatobipen/dev/rdkitugm2023_hackathon/python_knime_node # This is necessary for bundling, but not needed during development
+env_yml_path: /home/iwatobipen/dev/rdkitugm2023_hackathon/python_knime_node/knime5_node_dev.yml # This is necessary for bundling, but not needed during development
 extension_module: rdk_nodes # The .py Python module containing the nodes of your extension
 description: Cheminfo Extension # Human readable bundle name / description
 long_description: This extension is my first Python extension.
